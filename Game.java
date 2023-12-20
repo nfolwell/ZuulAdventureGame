@@ -62,7 +62,7 @@ public class Game
         toSouthWestEntrance.setExits(centerWestHallway, null, null, null);
         auditorium.setExits(auditoriumLobby, null, null, null);
         murral.setExits(null, null, auditoriumLobby, null);
-        southEliot.setExits(null, centerEastHallway, null, null);
+        southEliot.setExits(null, null, null, centerEastHallway);
         toNorthEastEntrance.setExits(null, null, centerEastHallway, null);
         toSouthEastEntrance.setExits(centerEastHallway, null, null, null);
         
